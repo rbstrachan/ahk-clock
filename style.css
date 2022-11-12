@@ -13,6 +13,7 @@
   justify-content: center;
   vertical-align: top;
   color: #333;
+/*   mix-blend-mode: screen; */
 }
 
 body {
@@ -20,7 +21,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background: #242426 url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2FMonEYd5.jpg&f=1&nofb=1&ipt=3aad2a493675314158bee238548b77797c1e735cf3218607172a3f3794ae5627&ipo=images");
+	background: #242426;
 }
 
 .clock {
