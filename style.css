@@ -4,12 +4,23 @@
 	box-sizing: border-box;
 }
 
+.signature {
+  content: '';
+  width: 95px;
+  height: 260px;
+  font-size: 30px;
+  font-family: ;
+  justify-content: center;
+  vertical-align: top;
+  color: #333;
+}
+
 body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background: #242426 url("https://browsecat.art/sites/default/files/beautiful-for-computer-wallpapers-100457-828191-5859774.png");
+	background: #242426 url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2FMonEYd5.jpg&f=1&nofb=1&ipt=3aad2a493675314158bee238548b77797c1e735cf3218607172a3f3794ae5627&ipo=images");
 }
 
 .clock {
@@ -23,9 +34,9 @@ body {
 	border: 4px solid #242426;
 	border-radius: 50%;
 	box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
-		    inset 0 -15px 15px rgba(255, 255, 255, 0.05),
-		    0 15px 15px rgba(0, 0, 0, 1),
-		    inset 0 15px 15px rgba(0, 0, 0, 1);
+				inset 0 -15px 15px rgba(255, 255, 255, 0.05),
+				0 15px 15px rgba(0, 0, 0, 1),
+				inset 0 15px 15px rgba(0, 0, 0, 1);
 }
 
 .clock:before {
@@ -33,9 +44,9 @@ body {
 	position: absolute;
 	width: 15px;
 	height: 15px;
-	background: #e7ba1b;
+	background: #0988f1;
 	border-radius: 50%;
-	z-index: 10000;
+	z-index: 13;
 }
 
 .clock .hour, .clock .min, .clock .sec {
@@ -70,7 +81,7 @@ body {
   position: absolute;
   width: 12px;
   height: 100px;
-  background: #bbb;
+  background: #ff105e;
   z-index: 10;
   border-radius: 6px 6px 0 0;
 }
@@ -90,7 +101,7 @@ body {
   position: absolute;
   width: 3px;
   height: 225px;
-  background: #e7ba1b;
+  background: #0988f1;
   z-index: 12;
   border-radius: 6px 6px 0 0;
 }
