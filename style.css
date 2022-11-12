@@ -21,7 +21,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background: #242426;
+	background: #242426 no-repeat center center fixed;
+  background-size: cover;
 }
 
 .clock {
