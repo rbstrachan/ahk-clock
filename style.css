@@ -86,10 +86,10 @@ body {
   background: #ff105e;
   z-index: 10;
   border-radius: 6px 6px 0 0;
-  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1),
-				      0 -10px 10px rgba(0, 0, 0, 0.1),
-			       	0 10px 10px rgba(0, 0, 0, 0.2),
-				      0 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2),
+				      0 -10px 10px rgba(0, 0, 0, 0.2),
+			       	0 10px 10px rgba(0, 0, 0, 0.3),
+				      0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .mn:before {
@@ -100,10 +100,10 @@ body {
   background: #bbb;
   z-index: 11;
   border-radius: 6px 6px 0 0;
-  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1),
-				      0 -10px 10px rgba(0, 0, 0, 0.1),
-			       	0 10px 10px rgba(0, 0, 0, 0.2),
-				      0 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2),
+				      0 -10px 10px rgba(0, 0, 0, 0.2),
+			       	0 10px 10px rgba(0, 0, 0, 0.3),
+				      0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .sc:before {
@@ -114,8 +114,8 @@ body {
   background: #0988f1;
   z-index: 12;
   border-radius: 6px 6px 0 0;
-  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1),
-				      0 -10px 10px rgba(0, 0, 0, 0.1),
-			       	0 10px 10px rgba(0, 0, 0, 0.2),
-				      0 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2),
+				      0 -10px 10px rgba(0, 0, 0, 0.2),
+			       	0 10px 10px rgba(0, 0, 0, 0.3),
+				      0 10px 10px rgba(0, 0, 0, 0.3);
 }
