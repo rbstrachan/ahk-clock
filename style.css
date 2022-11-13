@@ -4,15 +4,19 @@
 	box-sizing: border-box;
 }
 
+html {
+ 	background: #242426 no-repeat center center fixed url("https://browsecat.art/sites/default/files/beautiful-for-computer-wallpapers-100457-828191-5859774.png");
+}
+
 .signature {
-  content: '';
-  width: 95px;
-  height: 260px;
-  font-size: 30px;
-  font-family: ;
-  justify-content: center;
-  vertical-align: top;
-  color: #333;
+ 	content: '';
+	width: 95px;
+	height: 260px;
+	font-size: 30px;
+	font-family: ;
+	justify-content: center;
+	vertical-align: top;
+	color: #333;
 /*   mix-blend-mode: screen; */
 }
 
@@ -21,8 +25,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background: #242426 no-repeat center center fixed;
-  background-size: cover;
+/*   background: radial-gradient(circle, rgba(36,36,38,1) 35%, rgba(36,36,38,0) 40%); */
+	background-size: cover;
 }
 
 .clock {
@@ -35,10 +39,10 @@ body {
 	background-size: cover;
 	border: 4px solid #242426;
 	border-radius: 50%;
-	box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
-				      inset 0 -15px 15px rgba(255, 255, 255, 0.05),
-			       	0 15px 15px rgba(0, 0, 0, 1),
-				      inset 0 15px 15px rgba(0, 0, 0, 1);
+	box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.3),
+			  	inset 0 -15px 15px rgba(255, 255, 255, 0.05),
+				0 15px 15px rgba(0, 0, 0, 0.7),
+			  	inset 0 15px 15px rgba(0, 0, 0, 0.3);
 }
 
 .clock:before {
@@ -71,51 +75,51 @@ body {
 }
 
 .hr, .mn, .sc {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 /*   align-items: center; */
-  position: absolute;
-  border-radius: 50%;
+	position: absolute;
+	border-radius: 50%;
 }
 
 .hr:before {
-  content: '';
-  position: absolute;
-  width: 12px;
-  height: 110px;
-  background: #ff105e;
-  z-index: 10;
-  border-radius: 6px 6px 0 0;
-  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2),
-				      0 -10px 10px rgba(0, 0, 0, 0.2),
-			       	0 10px 10px rgba(0, 0, 0, 0.3),
-				      0 10px 10px rgba(0, 0, 0, 0.3);
+	content: '';
+	position: absolute;
+	width: 12px;
+	height: 110px;
+	background: #ff105e;
+	z-index: 10;
+	border-radius: 6px 6px 0 0;
+	box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2),
+			  	0 -10px 10px rgba(0, 0, 0, 0.2),
+				0 10px 10px rgba(0, 0, 0, 0.3),
+			  	0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .mn:before {
-  content: '';
-  position: absolute;
-  width: 6px;
-  height: 135px;
-  background: #bbb;
-  z-index: 11;
-  border-radius: 6px 6px 0 0;
-  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2),
-				      0 -10px 10px rgba(0, 0, 0, 0.2),
-			       	0 10px 10px rgba(0, 0, 0, 0.3),
-				      0 10px 10px rgba(0, 0, 0, 0.3);
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 135px;
+	background: #bbb;
+	z-index: 11;
+	border-radius: 6px 6px 0 0;
+	box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2),
+			 	0 -10px 10px rgba(0, 0, 0, 0.2),
+				0 10px 10px rgba(0, 0, 0, 0.3),
+			  	0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .sc:before {
-  content: '';
-  position: absolute;
-  width: 3px;
-  height: 225px;
-  background: #0988f1;
-  z-index: 12;
-  border-radius: 6px 6px 0 0;
-  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2),
-				      0 -10px 10px rgba(0, 0, 0, 0.2),
-			       	0 10px 10px rgba(0, 0, 0, 0.3),
-				      0 10px 10px rgba(0, 0, 0, 0.3);
+	content: '';
+	position: absolute;
+	width: 3px;
+	height: 225px;
+	background: #0988f1;
+	z-index: 12;
+	border-radius: 6px 6px 0 0;
+	box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2),
+			  	0 -10px 10px rgba(0, 0, 0, 0.2),
+				0 10px 10px rgba(0, 0, 0, 0.3),
+			  	0 10px 10px rgba(0, 0, 0, 0.3);
 }
