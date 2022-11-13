@@ -1,2 +1,2 @@
 # ahk-clock
-Attempt to make a functioning GUI clock in AHKv2
+Functioning GUI clock in AHKv2 via CSS and JavaScript
