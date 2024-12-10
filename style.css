@@ -31,7 +31,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #242426 url("https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gMoH0myZ65Phs7dcEGkyJ4fpkyR3-XVkVWM1pMPBF-uRsgNabclGkNZcUN2PrgdKN80QfZIjz4NA_IZI0aFmtK4z1a6Ag");
+/* 	background: #242426 url("https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gMoH0myZ65Phs7dcEGkyJ4fpkyR3-XVkVWM1pMPBF-uRsgNabclGkNZcUN2PrgdKN80QfZIjz4NA_IZI0aFmtK4z1a6Ag"); */
+	background: #242426 url("https://imvpn22.github.io/analog-clock/clock.png");
 	background-size: cover;
 	border: 4px solid #242426;
 	border-radius: 50%;
