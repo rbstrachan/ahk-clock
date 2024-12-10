@@ -4,38 +4,52 @@
 	box-sizing: border-box;
 }
 
+.signature {
+  content: '';
+  width: 95px;
+  height: 260px;
+  font-size: 30px;
+/*   font-family: ; */
+  justify-content: center;
+  vertical-align: top;
+  color: #333;
+/*   mix-blend-mode: screen; */
+}
+
 body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background: #242426 url("https://browsecat.art/sites/default/files/beautiful-for-computer-wallpapers-100457-828191-5859774.png");
+  background: #242426 no-repeat center center fixed;
+  background-size: cover;
 }
 
 .clock {
-	width: 350px;
-	height: 350px;
+	width: 525px;
+	height: 525px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #242426 url("https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gMoH0myZ65Phs7dcEGkyJ4fpkyR3-XVkVWM1pMPBF-uRsgNabclGkNZcUN2PrgdKN80QfZIjz4NA_IZI0aFmtK4z1a6Ag=w1920-h965");
+/* 	background: #242426 url("https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gMoH0myZ65Phs7dcEGkyJ4fpkyR3-XVkVWM1pMPBF-uRsgNabclGkNZcUN2PrgdKN80QfZIjz4NA_IZI0aFmtK4z1a6Ag"); */
+	background: #242426 url("https://imvpn22.github.io/analog-clock/clock.png");
 	background-size: cover;
 	border: 4px solid #242426;
 	border-radius: 50%;
 	box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
-				inset 0 -15px 15px rgba(255, 255, 255, 0.05),
-				0 15px 15px rgba(0, 0, 0, 1),
-				inset 0 15px 15px rgba(0, 0, 0, 1);
+				      inset 0 -15px 15px rgba(255, 255, 255, 0.05),
+			       	0 15px 15px rgba(0, 0, 0, 0.3),
+				      inset 0 15px 15px rgba(0, 0, 0, 0.3);
 }
 
 .clock:before {
 	content: '';
 	position: absolute;
-	width: 15px;
-	height: 15px;
+	width: 22px;
+	height: 22px;
 	background: #e7ba1b;
 	border-radius: 50%;
-	z-index: 10000;
+	z-index: 13;
 }
 
 .clock .hour, .clock .min, .clock .sec {
@@ -43,18 +57,18 @@ body {
 }
 
 .clock .hour, .hr {
-	width: 130px;
-	height: 130px;
+	width: 215px;
+	height: 215px;
 }
 
 .clock .min, .mn {
-	width: 190px;
-	height: 190px;
+	width: 285px;
+	height: 285px;
 }
 
 .clock .sec, .sc {
-	width: 230px;
-	height: 230px;
+	width: 345px;
+	height: 345px;
 }
 
 .hr, .mn, .sc {
@@ -68,29 +82,41 @@ body {
 .hr:before {
   content: '';
   position: absolute;
-  width: 8px;
-  height: 70px;
+  width: 12px;
+  height: 110px;
   background: #bbb;
   z-index: 10;
   border-radius: 6px 6px 0 0;
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2),
+				      0 -10px 10px rgba(0, 0, 0, 0.2),
+			       	0 10px 10px rgba(0, 0, 0, 0.3),
+				      0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .mn:before {
   content: '';
   position: absolute;
-  width: 4px;
-  height: 90px;
+  width: 6px;
+  height: 135px;
   background: #bbb;
   z-index: 11;
   border-radius: 6px 6px 0 0;
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2),
+				      0 -10px 10px rgba(0, 0, 0, 0.2),
+			       	0 10px 10px rgba(0, 0, 0, 0.3),
+				      0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .sc:before {
   content: '';
   position: absolute;
-  width: 2px;
-  height: 150px;
+  width: 3px;
+  height: 225px;
   background: #e7ba1b;
   z-index: 12;
   border-radius: 6px 6px 0 0;
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2),
+				      0 -10px 10px rgba(0, 0, 0, 0.2),
+			       	0 10px 10px rgba(0, 0, 0, 0.3),
+				      0 10px 10px rgba(0, 0, 0, 0.3);
 }
